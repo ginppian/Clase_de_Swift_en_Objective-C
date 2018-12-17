@@ -15,6 +15,8 @@
 		3C1C211C21C42B1B00F3C397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C211B21C42B1B00F3C397 /* main.m */; };
 		3C1C212621C42B1B00F3C397 /* Swift_en_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C212521C42B1B00F3C397 /* Swift_en_ObjCTests.m */; };
 		3C1C213221C42B8400F3C397 /* Calculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C213121C42B8400F3C397 /* Calculadora.swift */; };
+		3C1C215421C43A4400F3C397 /* Calculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C213121C42B8400F3C397 /* Calculadora.swift */; };
+		3C1C215621C43D7C00F3C397 /* Sera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C215521C43D7C00F3C397 /* Sera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,7 @@
 		3C1C212721C42B1B00F3C397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C1C213021C42B8400F3C397 /* Swift_en_ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift_en_ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		3C1C213121C42B8400F3C397 /* Calculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora.swift; sourceTree = "<group>"; };
+		3C1C215521C43D7C00F3C397 /* Sera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 			children = (
 				3C1C212521C42B1B00F3C397 /* Swift_en_ObjCTests.m */,
 				3C1C212721C42B1B00F3C397 /* Info.plist */,
+				3C1C215521C43D7C00F3C397 /* Sera.swift */,
 			);
 			path = Swift_en_ObjCTests;
 			sourceTree = "<group>";
@@ -221,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1C212621C42B1B00F3C397 /* Swift_en_ObjCTests.m in Sources */,
+				3C1C215621C43D7C00F3C397 /* Sera.swift in Sources */,
+				3C1C215421C43A4400F3C397 /* Calculadora.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75NH8N5682;
+				HEADER_SEARCH_PATHS = $CONFIGURATION_TEMP_DIR/Swift_en_ObjC.build/DerivedSources;
 				INFOPLIST_FILE = Swift_en_ObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,6 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bancomer.bbva.Swift-en-ObjCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_en_ObjC.app/Swift_en_ObjC";
 			};
@@ -434,6 +442,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75NH8N5682;
+				HEADER_SEARCH_PATHS = $CONFIGURATION_TEMP_DIR/Swift_en_ObjC.build/DerivedSources;
 				INFOPLIST_FILE = Swift_en_ObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bancomer.bbva.Swift-en-ObjCTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_en_ObjC.app/Swift_en_ObjC";
 			};

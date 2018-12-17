@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Calculadora: NSObject {
+@objc class Calculadora: NSObject {
     @objc public func suma(a: Int, b: Int) {
         print("\(a) + \(b) = \(a+b)")
     }
