@@ -60,11 +60,18 @@ Agregar clases Swift en un proyecto de Objective-C
 
 ### Swift:
 
+1. Creamos new file > unit test > seleccionamos swift como lenguaje.
+2.  Si tuvieramos un archivo de objective-c creamos un new file > swift > create bridge header > yes e importamos nuestras clases de objC.
+
 <p align="justify">
 	<img src="imgs/img15.png" alt="" height="" width="">
 </p>
 
 ### Obj-C:
+
+<i>"The reason why your test class couldn’t find the Swift classes is that the header file is an auto-generated file which only existed in the build directory, and the test target doesn’t see the main target as a framework module to be imported."</i>
+
+Pegamos la siguiente linea modificando el nombre de nuestro proyecto.
 
 ```
 $CONFIGURATION_TEMP_DIR/YourProject.build/DerivedSources
